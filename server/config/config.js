@@ -4,4 +4,4 @@ const config = {
   jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key",
   mongoUri: process.env.MONGO_PROD_URI
   }
-  export default config ;
+module.exports = config;
